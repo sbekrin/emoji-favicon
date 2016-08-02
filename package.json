@@ -1,0 +1,36 @@
+{
+  "name": "emoji-favicon",
+  "version": "0.1.0",
+  "description": "Emoji favicon middleware",
+  "author": {
+    "name": "Rumkin",
+    "email": "dev@rumk.in"
+  },
+  "maintainers": [
+    {
+      "name": "rumkin",
+      "email": "dev@rumk.in"
+    },
+    {
+      "name": "Sergey Bekrin",
+      "email": "sergey@bekrin.me"
+    }
+  ],
+  "scripts": {
+    "start": "node example/server.js"
+  },
+  "config": {
+    "port": 8080,
+    "emoji": "smiley"
+  },
+  "main": "src/emoji-favicon.js",
+  "dependencies": {},
+  "peerDependencies": {
+    "emoji-images": "~0.1.1"
+  },
+  "devDependencies": {
+    "chalk": "~0.5.1",
+    "connect": "~3.2.0"
+  },
+  "optionalDependencies": {}
+}
