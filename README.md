@@ -8,6 +8,8 @@ Totally based on [emoji-images](http://npmjs.org/package/emoji-images) package.
 
 ## Usage
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sergeybekrin/emoji-favicon.svg)](https://greenkeeper.io/)
+
 Middleware get one string parameter. It should be emoji name. If such image not found it cause an error.
 
 ````
